@@ -1,0 +1,56 @@
+[
+  {
+    "username": "Alankritha",
+    "password": "aaa",
+    "firstname":"Alankritha",
+    "lastname":"yata",
+    "email":"a@gmail.com",
+    "phone":"1255734",
+    "location":"India"
+  },
+  {
+    "username": "Nitya",
+    "password": "aaa",
+    "firstname":"Nitya",
+    "lastname":"Reddy",
+    "email":"n@gmail.com",
+    "phone":"1256734",
+    "location":"USA"
+  },
+  {
+    "username": "Archana",
+    "password": "aaa",
+    "firstname":"Archana",
+    "lastname":"Reddy",
+    "email":"r@gmail.com",
+    "phone":"1256734",
+    "location":"India"
+  },
+  {
+    "username": "Sandeep",
+    "password": "aaa",
+    "firstname":"Sandeep",
+    "lastname":"Nalla",
+    "email":"s@gmail.com",
+    "phone":"1265734",
+    "location":"USA"
+  },
+  {
+    "username": "Anusha",
+    "password": "aaa",
+    "firstname":"anusha",
+    "lastname":"yata",
+    "email":"u@gmail.com",
+    "phone":"1345234",
+    "location":"India"
+  },
+  {
+    "username": "Varsha",
+    "password": "aaa",
+    "firstname":"Varsha",
+    "lastname":"Yamini",
+    "email":"v@gmail.com",
+    "phone":"123434",
+    "location":"India"
+  }
+]

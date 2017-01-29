@@ -1,0 +1,21 @@
+
+    <div data-ng-controller="signup-controller"  data-ng-init = "onLoad()" id="signupPage">
+        <form>
+            Username<br/>
+            <input ng-model="username" id="username" type="text" placeholder="username.."/><br/>
+            Password<br/>
+            <input ng-model="password" id="username" type="password" placeholder="password.."/><br/>
+            First name<br/>
+            <input ng-model="firstname" id="username" type="text" placeholder="firstname.."/><br/>
+            Last name<br/>
+            <input ng-model="lastname" id="username" type="text" placeholder="lastname.."/><br/>
+            Email<br/>
+            <input ng-model="email" id="username" type="text" placeholder="email.."/><br/>
+            Phone<br/>
+            <input ng-model="phone" id="username" type="text" placeholder="phone.."/><br/>
+            Location<br/>
+            <input ng-model="location" id="username" type="text" placeholder="location.."/><br/>
+            <button ng-click="signUp()" class='register'>Register</button>
+
+        </form>
+    </div>

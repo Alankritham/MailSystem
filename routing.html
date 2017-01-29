@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.5/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.5/angular-route.min.js"></script>
+
+    <script src='script.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="design.css" />
+    </head>
+
+  <body data-ng-app="myApp" data-ng-controller = "global-controller" data-ng-init = "onLoad()">
+      <header>
+          <img id='logo' src=images/logo.png>
+          <span id='header-text'>Angular Messenger</span>
+      </header>
+      <div ng-view="" ></div>
+
+  </body>
+</html>
